@@ -15,7 +15,7 @@ const Videos = () => {
         />
       </video>
 
-      <div className="flex flex-row items-center justify-center border-b border-blue-300">
+      <div className="flex flex-row items-center justify-center mt-[-2.5rem] border-b border-blue-300">
 
         <button 
           className={`flex flex-col items-center justify-center gap-2 px-3 pb-6 
@@ -80,7 +80,7 @@ const Videos = () => {
         </button>
       </div>
 
-      <h1 className="font-bold text-center text-2xl text-white px-12 py-4">
+      <h1 className="font-bold text-center text-2xl text-white px-10 py-4">
         {videos[currentVideo].text}
       </h1>
     </div>
